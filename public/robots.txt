@@ -1,0 +1,18 @@
+# *
+User-agent: *
+Allow: /
+
+# test-bot
+User-agent: test-bot
+Allow: /contact
+Allow: /about
+
+# black-listed-bot
+User-agent: black-listed-bot
+Disallow: /admin
+
+# Host
+Host: https://www.soraflows.com
+
+# Sitemaps
+Sitemap: https://www.soraflows.com/sitemap.xml
